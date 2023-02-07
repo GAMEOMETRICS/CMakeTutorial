@@ -1,0 +1,7 @@
+[submodule "CMakeExercise/external/imgui"]
+	path = CMakeExercise/external/imgui
+	url = https://github.com/ocornut/imgui.git
+	branch = docking
+[submodule "CMakeExercise/external/glfw"]
+	path = CMakeExercise/external/glfw
+	url = https://github.com/glfw/glfw.git
