@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MyAdd.dir/src/main.cpp.o -o MyAdd  external/ExternalAdd/libExternalAdd.a 

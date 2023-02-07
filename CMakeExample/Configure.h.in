@@ -1,0 +1,9 @@
+#pragma once 
+
+#define CURRENT_VERSION "@PROJECT_VERSION@"
+
+#define CURRENT_MAJOR @PROJECT_VERSION_MAJOR@
+
+#define VERSION "@CMakeExample_VERSION@"
+
+#cmakedefine USEXADD

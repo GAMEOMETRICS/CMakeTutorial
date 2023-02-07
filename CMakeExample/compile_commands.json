@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/build/linux-debug",
+  "command": "/usr/bin/c++ -Dcxx_std_17 -I/home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/./external/ExternalAdd -I/home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/src -g -Wall -Wextra -Wshadow -Wformat=2 -Wunused -o CMakeFiles/MyAdd.dir/src/main.cpp.o -c /home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/src/main.cpp",
+  "file": "/home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/src/main.cpp"
+},
+{
+  "directory": "/home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/build/linux-debug/external/ExternalAdd",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ExternalAdd.dir/ExternalAdd.cpp.o -c /home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/external/ExternalAdd/ExternalAdd.cpp",
+  "file": "/home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/external/ExternalAdd/ExternalAdd.cpp"
+}
+]
