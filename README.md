@@ -5,7 +5,7 @@
 
 Windows和Macos是VSCode + Cmake插件，Linux是LunarVim + Neovim-CMake进行。本教程的主要环境是Linux，不同平台不影响学习效果。除环境配置以及打包两个步骤，其他步骤都是在Linux上完成。
 
->:exclamation: 版权声明：转载时请注明作者GAMEOMETRICS，并标注原文链接[https://github.com/GAMEOMETRICS/CMakeTut](https://github.com/GAMEOMETRICS/CMakeTut)。
+>:exclamation: 版权声明：转载时请注明作者GAMEOMETRICS，并标注原文链接[https://github.com/GAMEOMETRICS/CMakeTutorial](https://github.com/GAMEOMETRICS/CMakeTutorial)。
 
 >看我多正经，都有版权声明。
 
