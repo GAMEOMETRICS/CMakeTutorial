@@ -1,2 +1,0 @@
-/usr/bin/ar qc libExternalAdd.a CMakeFiles/ExternalAdd.dir/ExternalAdd.cpp.o
-/usr/bin/ranlib libExternalAdd.a

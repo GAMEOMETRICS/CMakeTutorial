@@ -3,6 +3,7 @@ build
 # Prerequisites
 *.d
 compile_commands.json
+imgui.h
 
 # Compiled Object files
 *.slo

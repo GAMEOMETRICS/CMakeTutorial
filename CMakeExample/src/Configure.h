@@ -6,4 +6,4 @@
 
 #define VERSION "0.1.9.0"
 
-#define USEXADD
+/* #undef USEXADD */

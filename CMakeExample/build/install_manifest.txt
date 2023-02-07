@@ -1,5 +1,0 @@
-/home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/build/_CPack_Packages/Linux/TXZ/CMakeExample-0.1.9-Linux/include/ExternalAdd.h
-/home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/build/_CPack_Packages/Linux/TXZ/CMakeExample-0.1.9-Linux/lib/libExternalAdd.a
-/home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/build/_CPack_Packages/Linux/TXZ/CMakeExample-0.1.9-Linux/bin/MyAdd
-/home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/build/_CPack_Packages/Linux/TXZ/CMakeExample-0.1.9-Linux/include/Configure.h
-/home/gameometrics/code/cpp_code/CMakeTut/CMakeExample/build/_CPack_Packages/Linux/TXZ/CMakeExample-0.1.9-Linux/include/MyAdd.h
