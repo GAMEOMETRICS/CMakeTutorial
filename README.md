@@ -13,7 +13,9 @@ Windows和Macos是VSCode + Cmake插件，Linux是LunarVim + Neovim-CMake进行�
 
 第2 3 4部分的示例流程参考官方文档，不保证一样或者说保证不太一样，官方教程的链接为[https://cmake.org/cmake/help/latest/guide/tutorial/index.html](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)，中文版[https://juejin.cn/post/6844903557183832078](https://juejin.cn/post/6844903557183832078)(这个是我找到写的比较清晰的一个版本，官方教程没有中文版本)，官方教程的github代码地址为[https://github.com/Kitware/CMake/tree/master/Help/guide/tutorial](https://github.com/Kitware/CMake/tree/master/Help/guide/tutorial)。
 
-本教程会有同步视频录制，并上传至bilibili平台，有兴趣的请关注我的bilibili账号[GAMEOMETRICS](https://space.bilibili.com/282638845)。
+本教程会有同步视频录制，并上传至bilibili平台，有兴趣的请关注我的bilibili账号[GAMEOMETRICS](https://space.bilibili.com/282638845)，观看[视频合集](https://www.bilibili.com/video/BV13M4y1Q7Dt/?vd_source=0bad5983f48e222f822fa753e9a651f9)。
+
+>本教程录制时间2023年2月
 
 >你的俩硬币和一键三连和分享，我要定了！！！。
 
