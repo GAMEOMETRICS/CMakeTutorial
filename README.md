@@ -42,7 +42,7 @@ sudo pacman -S cmake
 ```bash 
 sudo pacman -S code
 ```
-可以使用上述命令自行体会一下，也可以看我的安装的失败案例`失败视频插入`。
+可以使用上述命令自行体会一下，也可以看我的[VSCode失败的尝试](https://www.bilibili.com/video/BV1uD4y1P74k/?vd_source=0bad5983f48e222f822fa753e9a651f9)。
 
 如果你能科学上网，那么首先你需要安装neovim,
 ```bash
@@ -126,7 +126,7 @@ require('lvim.cmake.neovim-cmake') --最外层的lua文件夹不用引入
 ```
 这样我们的配置文件就可以生效了，这个时候我们的`CMake`已经可以在vim的命令行内使用`:CMake xx`进行调用了。
 ![Cmake命令行](img/cmake/cmake1.png)
-在`neovim-cmake`的github中罗列出了可以使用的命令，在LunarVim中同样可以使用`tab`进行提示，你可以跟着`插入视频链接`熟悉一下操作，也可以继续。
+在`neovim-cmake`的github中罗列出了可以使用的命令，在LunarVim中同样可以使用`tab`进行提示，你可以跟着[视频](https://www.bilibili.com/video/BV1z54y1N7tR/?spm_id_from=333.999.0.0&vd_source=0bad5983f48e222f822fa753e9a651f9)熟悉一下操作，也可以继续。
 
 > 现在知道视频的重要性了吗？一键三连，Come on ! ! !
 
@@ -343,7 +343,7 @@ require("lvim.dap.dap-cpp")
 ---@usage patterns used to detect root dir, when **"pattern"** is in detection_methods
 patterns = { ".git", "_darcs", ".hg", ".bzr", ".svn", "Makefile", "package.json", "pom.xml", "CMakeLists.txt" },
 ```
-在最后添加`CMakeLists.txt`，这个主要解决nvim-tree在我们项目文件时，自动打开上一级具有`.git`文件的问题，因为我们的`cmake`插件只能在有`CMakeLists.txt`的根目录里面才能正确配置，这个情况请参考视频，文字不太好说清楚`插入视频链接`。
+在最后添加`CMakeLists.txt`，这个主要解决nvim-tree在我们项目文件时，自动打开上一级具有`.git`文件的问题，因为我们的`cmake`插件只能在有`CMakeLists.txt`的根目录里面才能正确配置，这个情况请参考[视频](https://www.bilibili.com/video/BV1Ye4y1P7ZN/?spm_id_from=333.999.0.0&vd_source=0bad5983f48e222f822fa753e9a651f9)，文字不太好说清楚。
 
 > 我还有要一键三连的机会吗？我想做个好人。
 
@@ -360,7 +360,7 @@ patterns = { ".git", "_darcs", ".hg", ".bzr", ".svn", "Makefile", "package.json"
  
 
 ### 1.2 Windows和Macos的环境和工具配置
-windows和macos在基于VSCode+CMake的开发环境是是十分简单和无脑的，可以观看我的B站视频`插入视频`，视频中会将`CMake`的安装，`VSCode`需要的插件做一个详细的解释。不同于Linux，这两个平台的配置真的是太友好了，视频中分别会将本教程的两个样例进行运行，以演示环境的可用性。
+windows和macos在基于VSCode+CMake的开发环境是是十分简单和无脑的，可以观看我的[B站视频](https://www.bilibili.com/video/BV13M4y1Q7Dt/?spm_id_from=333.999.0.0&vd_source=0bad5983f48e222f822fa753e9a651f9)，视频中会将`CMake`的安装，`VSCode`需要的插件做一个详细的解释。不同于Linux，这两个平台的配置真的是太友好了，视频中分别会将本教程的两个样例进行运行，以演示环境的可用性。
 
 另外`ImGui`的`main.cpp`在Macos上运行需要格外的注意，需要注意以下代码
 ```c++
@@ -393,7 +393,7 @@ extensions_count = exts.size();
     CMakeLists.txt
     main.cpp
 
-其中`CMakeLists.txt`就是CMAKE的配置文件，打开之后其内容如下（我会在注释里面说明每一条命令的作用)，或者你可以看我的视频听我啰哩啰嗦几句`插入视频`：
+其中`CMakeLists.txt`就是CMAKE的配置文件，打开之后其内容如下（我会在注释里面说明每一条命令的作用)，或者你可以看我的视频听我啰哩啰嗦几句：
 
 ```cmake
 cmake_minimum_required(VERSION 3.5) ## 最低的cmake的版本要求
@@ -716,7 +716,7 @@ int main(int argc, char *argv[]) {
 #endif
 }
 ```
-这样我们就实现了在CMake开始就可以决定是否使用外部库，这个定义是在`configure`阶段就决定了的。也可以通过命令行的形式在`configure`时对其进行指定，或者在对应的配置文件中修改。使用命令行的形式请参考我的B站视频最后的演示`插入视频`。
+这样我们就实现了在CMake开始就可以决定是否使用外部库，这个定义是在`configure`阶段就决定了的。也可以通过命令行的形式在`configure`时对其进行指定，或者在对应的配置文件中修改。使用命令行的形式请参考我的B站视频最后的演示。
 
 >到了这里，CMake常用命令、项目构建与运行已经了解，是时候从不正经教程离开去构建自己的C++项目，并愉快运行了。
 
@@ -827,7 +827,7 @@ include(CPack)
 >如果这一部分你想要使用我的源码运行，记得在`clone`时添加上`--recursive`的命令。
 
 ### 4.1 编译`GLFW`和`GLAD`并运行样例
-本部分将首先添加`GLFW`以及`GLAD`的环境，然后编写`CMakeLists.txt`，你可以参考我B站的视频`插入视频`。
+本部分将首先添加`GLFW`以及`GLAD`的环境，然后编写`CMakeLists.txt`，你可以参考我B站的视频。
 
 我们首先创建`CMakeExcercise`项目，最好使用`CMake`插件自带的功能创建一个新的项目，然后在项目根目录创建`src`文件夹存放本项目的代码以及`external`文件夹，来存放来自于外部的库。然后下载[样例代码](https://learnopengl.com/code_viewer_gh.php?code=src/1.getting_started/2.2.hello_triangle_indexed/hello_triangle_indexed.cpp)并放置在`src`文件夹内并重命名为`OpenGLDemo.cpp`。
 
